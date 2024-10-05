@@ -1,0 +1,14 @@
+{
+    "env": {
+      "node": true,       // Menandakan bahwa Anda bekerja di lingkungan Node.js
+      "es6": true         // Menambahkan dukungan untuk fitur ES6
+    },
+    "extends": "eslint:recommended", // Menggunakan konfigurasi dasar ESLint
+    "rules": {
+      "indent": ["error", 2],         // Aturan indentasi (2 spasi)
+      "linebreak-style": ["error", "unix"],  // Mengatur linebreak menjadi LF (Unix-style)
+      "quotes": ["error", "single"],  // Mengatur penggunaan tanda kutip tunggal
+      "semi": ["error", "always"]     // Mengharuskan tanda titik koma di akhir setiap statement
+    }
+  }
+  
